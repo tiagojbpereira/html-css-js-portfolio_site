@@ -37,7 +37,11 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 15vh;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(236, 216, 216);
 }
 
 .nav-links{
@@ -53,7 +57,7 @@ a {
 }
 
 a:hover {
-    color: green;
+    color: rgb(197, 128, 128);
     text-decoration: underline;
     text-underline-offset: 1rem;
     /*text-decoration-color: rgb(181, 181, 181) ;*/
@@ -61,6 +65,7 @@ a:hover {
 
 .logo{
     font-size: 2rem;
+    
 
 }
 
@@ -100,12 +105,13 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: rgb(45, 230, 101);
+    background-color: rgb(240, 240, 240);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
     border-radius: 0.5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 
@@ -173,6 +179,7 @@ section {
 /* PROFILE SECTION*/
 
 #profile{
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -458,8 +465,18 @@ article .icon{
 footer{
     height: 26vh;
     margin: 0 1rem;
+    
 }
 
 footer a{
     text-align: center;
+}
+
+footer p{
+    text-align:end;
+}
+
+footer nav{
+    border: none;
+    background: none;
 }

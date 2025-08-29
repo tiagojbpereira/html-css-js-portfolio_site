@@ -97,8 +97,8 @@
         text-align: justify;
 
     }
-    .footer p{
-        font-size: 0.5rem;
+    footer p{
+        font-size: 0.75rem;
         justify-content: center;
     }
     #contact {
