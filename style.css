@@ -275,6 +275,7 @@ section {
 
 #about{
     position: relative;
+    
 }
 
 .about{
@@ -284,12 +285,14 @@ section {
 .about-containers {
     gap: 4rem;
     margin-bottom: 2 rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    
 }
 
 .about-details-container {
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
+    
 }
 
 .about-containers, .about-details-container {
@@ -357,12 +360,19 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
-
 }
 
 
+
+.article-container article div{ 
+    display: grid;
+    flex-direction: column; 
+    justify-content: initial;
+}
+
 article{
-    display: flex;
+    display: grid;
+    grid-template-columns: 30px 1fr;
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
@@ -370,6 +380,7 @@ article{
 
 article .icon{
     cursor: default;
+    justify-self: center;
 }
 
 
@@ -407,6 +418,8 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 3rem;
 }
 
 .contact-info-upper-container{
