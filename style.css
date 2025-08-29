@@ -105,6 +105,7 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    border-radius: 0.5rem;
 }
 
 
@@ -116,6 +117,12 @@ a:hover {
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;;
+}
+
+.menu-links a:hover{
+    color: green;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
 
 .menu-links{
@@ -202,7 +209,7 @@ section {
     text-align: center;
 }
 
-#social-container{
+#socials-container{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
