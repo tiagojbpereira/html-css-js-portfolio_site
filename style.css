@@ -44,6 +44,7 @@ nav {
     border-bottom-right-radius: 1rem;
     /* background-color: rgb(236, 216, 216); */
     background: linear-gradient(to right, #eba5c2, #c77f9b);
+    z-index: 1000;
 }
 
 .nav-links{
@@ -85,6 +86,7 @@ a:hover {
 .hamburger-menu{
     position: relative;
     display: inline-block;
+    z-index: 1000;
 }
 
 .hamburger-icon{
@@ -128,7 +130,7 @@ a:hover {
 }
 
 .menu-links a:hover{
-    color: green;
+    color: rgb(165, 137, 137);
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
